@@ -87,6 +87,8 @@ Python example (`python.json`):
 
 I'm not related with the project, just liked it.
 
+The QuickSnip project just migrated from JSON to Markdown, so this converter is decapred.
+
 [Click here to check it out](https://github.com/dostonnabotov/quicksnip)
 
 ### License
