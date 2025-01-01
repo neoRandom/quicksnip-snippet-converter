@@ -1,7 +1,26 @@
-# quicksnip-snippet-converter
+# QuickSnip Snippet Converter
 Converts a code snippet into a formatted JSON used on the QuickSnip open-source project.
 
-### Formatting
+## Summary
+- [Usage](#usage)
+- [Formatting](#formatting)
+- [QuickSnip](#quicksnip)
+- [License](#license)
+
+## Usage
+
+#### Requirements
+- Python ( >= 3.9 ig; >=3.12 recommended )
+- Linux (recommended)
+- Python Virtual Environment (recommended)
+
+#### Commands
+
+- `pip install -r requirements.txt`
+- `cd src`
+- `python ./converter.py <file path> <language (optional)>`
+
+## Formatting
 
 #### Input
 
@@ -70,27 +89,14 @@ Python example (`python.json`):
 
 > Note: The only thing that change from language to language is the output file name (`python.json` to Python, `javascript.json` to JavaScript etc.).
 
-### Usage
+## QuickSnip
 
-#### Requirements
-- Python ( >= 3.9 ig; >=3.12 recommended )
-- Linux (recommended)
-- Python Virtual Environment (recommended)
-
-#### Commands
-
-- `pip install -r requirements.txt`
-- `cd src`
-- `python ./converter.py <file path> <language (optional)>`
-
-### QuickSnip
-
-I'm not related with the project, just liked it.
+I have no relation to the project, I just liked it.
 
 The QuickSnip project just migrated from JSON to Markdown, so this converter is decapred.
 
 [Click here to check it out](https://github.com/dostonnabotov/quicksnip)
 
-### License
+## License
 
 This project is currently under a MIT [LICENSE](LICENSE)
