@@ -1,0 +1,23 @@
+[
+  {
+    "categoryName": "SQLite Database",
+    "snippets": [
+      {
+        "title": "Examples",
+        "description": "Simple Examples",
+        "code": [
+          "if __name__ == \"__main__\":",
+          "    print(\"Hello, world\")",
+          ""
+        ],
+        "tags": [
+          "python",
+          "hello world",
+          "beginner friendly",
+          "prevents accidental execution when importing"
+        ],
+        "author": "neoRandom"
+      }
+    ]
+  }
+]
